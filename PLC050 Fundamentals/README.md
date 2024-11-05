@@ -3,10 +3,12 @@ This course is designed to take half a day not including the project at the end.
 When you are running through this, I would encourage you to make use of the other PLC resoures around by searching. If you still have issues, send me an email (see profile) with screenshots/files and detailed information. 
 I will continue to update the information here but there is a high chance details are missed in the slides which are explained in person.
 
-## Requirements
+## Requirements and References
 - [PLCnext Engineer](https://phoenixcontact.net/product/1046008)
 - [PLCnext Starterkit](https://phoenixcontact.net/product/1188165)
 - PC with Etherent Interface. [IP Address set](https://github.com/declan-pxc/PLCnext-Examples/tree/main/Starterkit#changing-your-ip-address) to 192.168.1.11
+- Know how to [Download to the PLC](https://github.com/declan-pxc/PLCnext-Examples/tree/main/Starterkit#downloading-the-project)
+- Learn about [debugging](https://engineer.plcnext.help/latest/_index.htm?iframe=https://engineer.plcnext.help/latest/Commissioning_Intro.htm)
 
 ## Training
 ![Welcome](https://github.com/user-attachments/assets/8ff83e69-5702-48d8-964e-15c8cfab8344)
@@ -38,11 +40,14 @@ Enter names for the variables and use the Process Data column to select the Inpu
 
 #### Application 1
 For each of the applications, press on the `+` sign in the Main program to add a new sheet for each. Also recommended to use new outputs for each `Y_` output so they are not overwritten.
+> Remember, when you want to change the project after downloading, you need to Right Click on the PLC and turn Debug __OFF__
+
 ![App1](https://github.com/user-attachments/assets/83151a60-6607-40b5-b036-fc70abbff884)
 <details>
   <summary> Solution </summary>
   <img src="https://github.com/user-attachments/assets/793e5f1b-dfa5-4359-86ca-0db5de94f54d" />
 </details>
+
 ![Bitwise Functions](https://github.com/user-attachments/assets/5ff1a420-7c31-40d2-b2e2-e4991c4c4f6d)
 
 #### Application 2
@@ -54,6 +59,7 @@ For each of the applications, press on the `+` sign in the Main program to add a
 </details>
 #### Application 3
 Okay, lets get a little more challenging...
+
 ![App3](https://github.com/user-attachments/assets/3b1643eb-2c43-47b7-a7fb-e51df390206b)
 <details>
   <summary> Solution </summary>
@@ -77,6 +83,7 @@ For some of these I have named them Digital, which doesn't turn into a good name
   1. Go to the divisor definition, and change the INIT column to be something not zero, or better,
   2. Right click on the DIV block and use the EN enable bit to check if it is not zero. This may become more clear further in the information when we look at these logic blocks.
 </details>
+
 ![INTs](https://github.com/user-attachments/assets/020ed91b-072f-48a8-8d20-b6c38235908c)
 ![Timers](https://github.com/user-attachments/assets/b4491308-b257-4ad2-81fb-2faededfbced)
 ![Counters](https://github.com/user-attachments/assets/9fcb9219-cf72-4faf-a222-211d1acdcae8)
@@ -96,8 +103,8 @@ We have gone through quite a significant amount more and here is another good ti
   <summary> Solution </summary>
   <img src="github.com/user-attachments/assets/ba8d496a-e64e-414b-bdcc-a83d6252eb0e" />
   <img src="https://github.com/user-attachments/assets/3ba9a427-09e4-42d2-a225-365f8d23c29d" />
-  ![Slide41]()
 </details>
+
 ![Import Library](https://github.com/user-attachments/assets/cb332fa0-f9df-4dcd-96d7-780861da3db5)
 For the next step, also double click on HMI Webserver and change the security to None, this will prevent a login window popping up. If you missed it, you can delete the Login page. Otherwise you will get an error. 
 If you get this error, you can right click on the page you created and select it as the startup page.
