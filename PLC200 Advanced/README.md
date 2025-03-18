@@ -17,7 +17,7 @@ View the [PLC200 Project PDF document](PLC200%20Project.pdf) and below are some 
 - The analogue value process data goes from 0..10000 - you could either scale for a total of 1440 minutes / day OR convert it to percentage to work out the value.
 - For OPC UA - you can use UAexpert to view the data (optional)
 - Don't use the first radial gauge. Use the one in the Default folder.
-- For the chart, set up Datalogger session with type TSDB and it will be available in the HMI
+- For the chart, set up [Datalogger](https://engineer.plcnext.help/latest/Commissioning_DataLogger.htm) session with type TSDB and it will be available in the HMI
 
 #### Bonus Functionality
 - Save OEE of the last '5' minutes: max min and average.
