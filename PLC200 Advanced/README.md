@@ -3,7 +3,7 @@ In this course, we look further into PLCnext, particularly programming PLCnext C
 You can also get in touch with your local sales team to organise.
 
 ## Project
-View the project PDF document and below are some notes. This project is to be complete during the training course. 
+View the [PLC200 Project PDF document](PLC200%20Project.pdf) and below are some notes. This project is to be complete during the training course. 
 
 #### OEE Calculations
 - OEE % = Availability % * Performance % * Quality %
