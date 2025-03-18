@@ -1,4 +1,7 @@
-# PLC300 Expert Project
+# PLC300 Expert
+This level is preferably done after [PLC200 Advanced](/PLC200%20Advanced). This means we are building on top of the project done previously.
+
+## Project
 - Create local and remote control of the target value for OEE. This target value is controlled by AI1 (slider) for local control.
 - Show this 'alarm' on the HMI (bonus points for utilising the alarm FBs - you will need to add the PLCnext Controller library.)
 - A library needs to be created (it could also be your entire completed project) or a communication FB
@@ -8,7 +11,7 @@
 - Reference [github.com/declan-pxc/PLCnext-Examples/Staterkit](github.com/declan-pxc/PLCnext-Examples/Staterkit) for Python and Node-Red
 - Datamapping – use BUF_TO_REAL and REAL_TO_BUF function blocks. If you really don’t like that, there are some options in PLCnextBase Library.
 
-## Bonus Points
+#### Bonus Points
 - Calculate your neighbours OEE as well using Avail. Perf. and Qual.
 - Utilising alarm FBs for target value (and viewing with OPC UA)
 - Set neighbours PLC target value with Node Red and/or through PNIO and MODBUS
