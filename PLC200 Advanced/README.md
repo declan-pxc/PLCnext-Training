@@ -1,5 +1,5 @@
 # PLC Level 200 PLCnext Engineer Advanced
-In this course, we look further into PLCnext, particularly programming PLCnext Control using PLCnext Engineer. This is designed as a two-day course and can be registered on the (landing page)[https://www.phoenixcontact.com/en-au/plcnextlab].
+In this course, we look further into PLCnext, particularly programming PLCnext Control using PLCnext Engineer. This is designed as a two-day course and can be registered on the [landing page](https://www.phoenixcontact.com/en-au/plcnextlab).
 You can also get in touch with your local sales team to organise.
 
 ## Project
