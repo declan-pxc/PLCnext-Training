@@ -6,10 +6,12 @@ You can also get in touch with your local sales team to organise.
 View the [PLC200 Project PDF document](PLC200%20Project.pdf) and below are some notes. This project is to be complete during the training course. 
 
 #### OEE Calculations
-- OEE % = Availability % * Performance % * Quality %
-- Availability % = (Planned - Scheduled - Unscheduled) / Planned 
-- Performance % = Actual Production / Planned 
-- Quality % = (Actual Production - Scrap - Rework) / Actual Production
+```
+OEE % = Availability % * Performance % * Quality %
+Availability % = (Planned - Scheduled - Unscheduled) / Planned 
+Performance % = Actual Production / Planned 
+Quality % = (Actual Production - Scrap - Rework) / Actual Production
+```
 
 #### Additional Notes
 - To increment and decrement the scrap, you can use the CTU/CTD/CTUD function block. Right click on it in the definition to get help.
