@@ -10,6 +10,7 @@ This level is preferably done after [PLC200 Advanced](/PLC200%20Advanced). This 
 - To map the data to buffer - you can use an array as the source. Reference [github.com/declan-pxc/PLCnext-Examples/Data Mapping](github.com/declan-pxc/PLCnext-Examples/Data%20Mapping)
 - Reference [github.com/declan-pxc/PLCnext-Examples/Staterkit](github.com/declan-pxc/PLCnext-Examples/Staterkit) for Python and Node-Red
 - Datamapping – use BUF_TO_REAL and REAL_TO_BUF function blocks. If you really don’t like that, there are some options in PLCnextBase Library.
+- For setting up Datalogger, use this [reference](https://github.com/PLCnext/PLCnext_RT_Datalogger/blob/Pre-2025.0/getting-started/Part-02/README.md).
 
 #### Bonus Points
 - Calculate your neighbours OEE as well using Avail. Perf. and Qual.
